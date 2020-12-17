@@ -30,6 +30,7 @@ jobs:
         uses: actions/setup-node@2.1.2 #configurar o node da maquina 
         with:
           node-version: ${{ matriz.node-version }}
+          continue-on-error: true
      
         
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
