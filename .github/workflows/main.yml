@@ -27,7 +27,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Setup Node.js
-        uses: actions/setup-node@v2.1.2 #configurar o node da maquina 
+        uses: actions/setup-node@2.1.2 #configurar o node da maquina 
         with:
           node-version: ${{ matriz.node-version }}
      
